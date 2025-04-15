@@ -1,0 +1,52 @@
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 371px);
+  grid-gap: 50px;
+  justify-content: center;
+}
+
+.tile {
+  background-color: #bebebe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  font-size: 31px;
+  font-weight: 500;
+}
+
+.productsLabel {
+  font-size: 20px;
+  font-weight: 550;
+  border: #ad4844 1px solid;
+  padding: 12px;
+}
+
+.productsOption {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.productsSelectContainer {
+  max-height: 50px;
+  background-color: #ad4844;
+  width: 127px;
+  display: flex;
+  justify-content: center;
+}
+
+.productsSelect {
+  background-color: #ad4844;
+  color: #f6f6f6;
+  font-weight: 750;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.productsSelect:focus {
+  outline: none;
+}

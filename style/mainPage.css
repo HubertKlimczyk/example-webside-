@@ -1,0 +1,217 @@
+.mainPage {
+  width: auto;
+  background-image: url(../img/Vector2.png), url(../img/Vector3.png),
+    url(../img/Vector4.png), url(../img/Vector5.png), url(../img/Vector6.png),
+    url(../img/Vector7.png), url(../img/Vector8.png), url(../img/Vector9.png),
+    url(../img/Vector10.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 1806px 414px, 1440px 723px, -33px 795px, 140px 1533px,
+    549px 1496px, 717px 1543px, 1070px 1534px, 1265px 1505px, 1633px 1517px;
+}
+
+.mainPage_firstParagraph {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.mainPage_bottle {
+  display: block;
+  max-width: 682.34px;
+  max-height: 867px;
+  margin: 30px 0 0 161.54px;
+  background-image: url(../img/Vector.png), url(../img/Vector1.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: 15px, 504px;
+  background-position-y: 490px, 345px;
+}
+
+.mainPage_mainTextContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.mainPage_textContainer {
+  max-width: auto;
+  margin: 0;
+}
+
+.mainPage_logo {
+  display: block;
+  width: 730px;
+  margin: 200px 226px 60px auto;
+}
+
+.mainPage_firstText {
+  font-size: 48px;
+  font-weight: 500;
+  background: linear-gradient(90.01deg, #111111 -8.85%, #b1b1b1 116.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 61.54px;
+  margin: 0 0 20px 0;
+}
+
+.mainPage_secoundText {
+  font-size: 20px;
+  font-weight: 450;
+  color: #111111;
+  line-height: 25.64px;
+  margin: 0 0 20px 0;
+}
+
+.mainPage_button {
+  background-color: #30ab4c;
+  border: none;
+  width: 171px;
+  height: 46px;
+  padding: 10px 35px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f6f6f6;
+  margin: 0;
+}
+
+.mainPage_button:hover {
+  cursor: pointer;
+}
+
+.mainPage_button:active {
+  transform: scale(1.01);
+}
+
+/* next paragraph */
+.mainPage_secoundParagraph {
+  max-width: 100%;
+}
+
+.mainPage_secoundHeader {
+  width: 523px;
+  margin: 0 auto 135px auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  background: linear-gradient(
+    90.01deg,
+    #111111 -8.85%,
+    #b1b1b1 58.84%,
+    #696969 91.39%,
+    #b1b1b1 116.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 61.54px;
+  position: relative;
+}
+
+.mainPage_secoundHeader::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 126px;
+  height: 1px;
+  background-color: #111111;
+  transform: translateX(-50%);
+}
+
+/* third paragraph */
+
+.mainPage_article {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.mainPage_article::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -24px;
+  width: 0;
+  height: 1px;
+  background-color: #111111;
+  transition: width 0.3s;
+}
+
+.mainPage_article:hover::after {
+  width: 100%;
+}
+
+.mainPage_thirdParagraph {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-gap: 206px;
+  justify-content: center;
+}
+
+.mainPage_thirdHeader {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 39.74px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  position: relative;
+  color: #111111;
+}
+
+.mainPage_thirdHeader::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  width: 126px;
+  height: 1px;
+  background-color: #111111;
+  transform: translateX(-50%);
+}
+
+.mainPage_thirdText {
+  font-size: 20px;
+  text-align: center;
+  line-height: 25.64px;
+  font-weight: 450;
+}
+
+.mainPage_list {
+  list-style: none;
+  padding: 0;
+  margin: 70px 0 115px 0;
+}
+
+.mainPage_listElement {
+  position: relative;
+  padding-left: 64px;
+  text-align: left;
+}
+
+.mainPage_listElement::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 56px;
+  height: 56px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mainPage_listElement-first {
+  margin: 0 0 40px 0;
+}
+
+.mainPage_listElement-first::before {
+  background-image: url("/img/Frame1.png");
+}
+
+.mainPage_listElement-secound::before {
+  background-image: url("/img/Frame2.png");
+}
+
+.mainPage_listImage {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  background-color: #F6F6F6;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -1px;
+}
